@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
+
+/* header banner */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bannerSection {
+    background-image: url("../images/banner/banner1.png");
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+.headerContent {
+    width: 40%;
+    text-align: end;
+}
+
+.headerContent h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #151414;
+}
+
+.headerContent p {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #444343;
+}
+
+.headerContent button {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+/* feature section */
+.featureSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 200px;
+}
+
+.featureContent h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.featureContent p {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.featureContent ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.featureContent ul li p i {
+    padding-right: 5px;
+    color: #16D887;
+}
+
+/* plan */
+.planSection {
+    padding: 0px 230px;
+}
+
+.planSection h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+}
+
+.course-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.course-card {
+    text-align: center;
+}
+
+.course-card h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #151414;
+}
+
+.course-card p {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    text-align: center;
+    color: #737272;
+}
+
+/* price */
+.priceSection {
+    padding: 80px 230px;
+    margin-top: 50px;
+    background-color: #F15B22;
+}
+
+.priceSection h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #ffffff;
+}
+.price-list{
+    display: flex;
+    justify-content: space-around;
+}
+.price-card{
+    background-color: #fff;
+    padding: 15px 25px;
+    width: 220px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.price-card h1{
+    color: #151414;
+}
+.price-card h2{
+    color: #151414;
+    text-align: center;
+}
+.price-card p{
+    font-size: 16px;
+    color: #444343;
+    text-align: center;
+}
+
+/* ads call */
+.contact {
+    padding: 130px 230px;
+}
+
+.small-banner {
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 59px 64px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
+}
+
+.small-banner h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.small-banner button {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    background-color: #fff;
+    color: #F15B22;
+    padding: 11px 27px;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+/* footer */
+footer {
+    background: #151414;
+    padding: 100px 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerleft {
+    width: 480px;
+}
+
+.footerleft h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 15px;
+}
+
+.footerleft h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.footerleft p {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.subscribe {
+    width: 230px;
+}
+
+.subscribe h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.subscribe input {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #F3F3F3;
+    background-color: transparent;
+    margin: 8px 0px;
+    padding: 11px 14px;
+    padding-top: 11px;
+    padding-right: 14px;
+    padding-bottom: 11px;
+    padding-left: 14px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 250px;
+}
+
+.subscribe button {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F15B22;
+    background-color: #fff;
+    border: none;
+    padding: 11px 27px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.social ul {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+}
+
+.social ul li a {
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social ul li .facebook {
+    color: #006AFF;
+}
+
+.social ul li .youtube {
+    color: #FF0000;
+}
+
+.social ul li .twitter {
+    color: #1DA1F2;
+}
